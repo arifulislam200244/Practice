@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form </title>
+    <style>
+        label {
+            display: block;
+            margin: 5px;
+        }
+
+        fieldset {
+            display: block;
+            border: none;
+        }
+
+        .fill {
+            border: 1px solid;
+            width: 50%;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: blueviolet;
+        }
+
+        body {
+            justify-content: center;
+            display: flex;
+        }
+        #anu{
+            border:solid;
+        }
+    </style>
+</head>
+
+<body>
+    <section class='fill'>
+        <h2 style="margin-left: 50px;">PLEASE FILL THE FORM</h2>
+        <form>
+            <label for="name"> Name:
+                <input type="name" placeholder="Your Name">
+            </label>
+            <label for="name"> Name:
+              <select name="" id="">
+                <option value="">sdfghjkl</option>
+                <option value="">sdfghjkl</option>
+                <option value="">sdfghjkl</option>
+                <option value="">sdfghjkl</option>
+                <option value="">sdfghjkl</option>
+                <option value="">sdfghjkl</option>
+                <option value="">sdfghjkl</option>
+                <option value="">sdfghjkl</option>
+                <option value="">sdfghjkl</option>
+              </select>
+            </label>
+            <label for="email">Email:
+                <input type="email" placeholder="Your Email">
+            </label>
+            <label for="phone number">Phone:
+                <input type="phone number" placeholder="Enter Phone Number">
+            </label>
+            <label for="Location">Location:
+                <input type="location" placeholder="Your Location">
+            </label>
+            <fieldset>
+                <legend>Pick One</legend>
+                <label for="thing">
+                    <input type="radio" name="thing" id="pen">Pen
+                </label>
+                <label for="thing">
+                    <input type="radio" name="thing" id="Paper">Paper
+                </label>
+               <label for="thing">
+                <input type="radio" name="thing" id="Book">Book
+               </label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Pick One Or More</legend>
+                <label for="cusmatics">
+                   <input type="checkbox" name="cusmatics" id="lipgel">Lipgel
+                </label> 
+                <label for="cusmatics">
+                   <input type="checkbox" name="cusmatics" id="facewash">Face wash
+                </label> 
+                <label for="cusmatics">
+                   <input type="checkbox" name="cusmatics" id="Skinpure">Skinpure
+                </label> 
+            </fieldset>
+           <fieldset >
+            <legend>  Your Comments:</legend>
+           <textarea name="thing" id="your comments" rows="5" cols="20">
+           
+           </textarea>
+       
+           </fieldset>
+          
+           <input style="background-color: crimson; margin-left: 15%;" type="reset" value="Reset">
+           <input style="background-color: blue;" type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
+</html>

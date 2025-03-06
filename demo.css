@@ -1,0 +1,11 @@
+.anurag{
+    border: 5px solid ;
+    border-radius: 5px;
+}
+*{
+    margin: 5px 10px;
+    padding: inline 15px;
+}
+div{
+    background-color: aqua;
+}
